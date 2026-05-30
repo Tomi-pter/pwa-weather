@@ -1,0 +1,16 @@
+{
+  "short_name": "Weather App",
+  "name": "Weather App PWA",
+  "description": "A simple weather application built as a Progressive Web App (PWA) using React.",
+  "icons": [
+    {
+      "src": "./assets/logo.png",
+      "type": "image/png",
+      "sizes": "192x192 512x512 1024x1024"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

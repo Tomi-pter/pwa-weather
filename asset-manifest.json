@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/pwa-app/static/js/main.5decec39.js",
+    "index.html": "/pwa-app/index.html",
+    "main.5decec39.js.map": "/pwa-app/static/js/main.5decec39.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5decec39.js"
+  ]
+}
