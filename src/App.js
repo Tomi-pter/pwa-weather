@@ -39,14 +39,18 @@ function App() {
           <p>Local Time: {weatherData.location.localtime}</p>
           <p>Latitude: {weatherData.location.lat}</p>
           <p>Longitude: {weatherData.location.lon}</p>
-          <p>Temperature: {weatherData.current.temp_c}°C</p>
-          {/* <p>Condition: {weatherData.current.condition.text}</p>
-          <img
-            src={weatherData.current.condition.icon}
-            alt={weatherData.current.condition.text}
-          /> */}
-          <p>Humidity: {weatherData.current.humidity}%</p>
-          <p>Pressure: {weatherData.current.pressure_mb} mb</p>
+          {weatherData.current && (
+            <div>
+              <p>Temperature: {weatherData.current.temp_c}°C</p>
+              <p>Condition: {weatherData.current.condition.text}</p>
+              <img
+                src={weatherData.current.condition.icon}
+                alt={weatherData.current.condition.text}
+              />
+              <p>Humidity: {weatherData.current.humidity}%</p>
+              <p>Pressure: {weatherData.current.pressure_mb} mb</p>
+            </div>
+          )}
         </div>
       )}
     </div>
