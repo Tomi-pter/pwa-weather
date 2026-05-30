@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://Tomi-pter.github.io/pwa-app",
+  "homepage": "https://Tomi-pter.github.io/pwa-weather",
   "eslintConfig": {
     "extends": [
       "react-app",
